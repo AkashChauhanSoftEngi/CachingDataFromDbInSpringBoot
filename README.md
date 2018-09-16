@@ -1,4 +1,4 @@
-# CachingDataWithSpringBoot
+# SpringBootWithCachingData
 
 * Need to add @EnableCaching with main method class
 * Ehcache is being used at service implementation level/layer
