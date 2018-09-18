@@ -1,7 +1,7 @@
 # CachingDataFromDbInSpringBoot
 
 * Need to add @EnableCaching with main method class
-* Ehcache is being used at service implementation level/layer
+* It is adviced to use Ehcache at service implementation level/layer
 * @Cacheable(value="key"): to store return type of this method as key in the Cache 
 * @CacheEvict(value = "key",allEntries = true): Clear it from cache
 * When server start the cache will not have any value in the JVM{HashMap/Hashtable/RAM}
